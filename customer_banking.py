@@ -1,5 +1,7 @@
 # Import the create_cd_account and create_savings_account functions
 # ADD YOUR CODE HERE
+from cd_account import create_cd_account
+from savings_account import create_savings_account
 
 # Define the main function
 def main():
@@ -27,3 +29,4 @@ def main():
 
 if __name__ == "__main__":
     # Call the main function.
+    main()
