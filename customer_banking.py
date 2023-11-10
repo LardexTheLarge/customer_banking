@@ -9,9 +9,6 @@ def main():
     and the length of months to determine the interest gained.
     It displays the interest earned on the savings and CD accounts and updates the balances.
     """
-    # line = print("------------------------------")#30
-    # valid = print("Valid Entry")
-    # restart = print("Resting program")
 
     # Prompt the user to set the savings balance, interest rate, and months for the savings account.
     # ADD YOUR CODE HERE
@@ -44,7 +41,7 @@ def main():
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print(f"The interest earned on you savings account is: {interest_earned:.2f}\n Savings balance: {updated_savings_balance:.2f}")
+    print(f"The interest earned on you savings account is: {interest_earned:,.2f}\nSavings balance: {updated_savings_balance:,.2f}")
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     # ADD YOUR CODE HERE
@@ -77,7 +74,7 @@ def main():
 
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print(f"The interest earned on you savings account is: {interest_earned:.2f}\nSavings balance: {updated_cd_balance:.2f}")
+    print(f"The interest earned on your CD account is: {interest_earned:,.2f}\nCD balance: {updated_cd_balance:,.2f}")
 
 if __name__ == "__main__":
     # Call the main function.
